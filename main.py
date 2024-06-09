@@ -6,12 +6,10 @@ import random
 from art import logo
 
 
-
 # Lists:
 deck = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
 user_hand = []
 computer_hand = []
-
 
 
 # Functions
@@ -76,7 +74,6 @@ def start_game():
         print(f"Your final hand: {user_hand}, final score: {user_score}")
         print(f"Computers final hand: {computer_hand}, final score: {computer_score}")
         print(compare_scores(user_score, computer_score))
-
 
 
 # Rules: 
