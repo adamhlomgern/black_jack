@@ -102,3 +102,8 @@ def start_game():
     - If neither busts, the hand with the value closest to 21 wins.
     - In the events of a tie (same hand value), the game is a push and the player's bet is returned.
 """
+
+
+# Main execution
+if __name__ == "__main__":
+    start_game()
